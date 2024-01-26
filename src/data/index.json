@@ -1,0 +1,80 @@
+{
+    "skills": [
+    {
+        "id": "1",
+        "src": "./img/feather-pen-2.png",
+        "title": "Backend development",
+        "description": "8 years of development experience, mainly in Node JS and python with multiple databases such as postgresql, MongoDB, etc."
+    },
+    {
+        "id": "2",
+        "src": "./img/product-chain-1.png",
+        "title": "Cloud development",
+        "description": "4 years of development and infrastructure experience, mainly in private cloud and AWS cloud services. Certified AWS Cloud Solutions Architect Associate."
+    },
+    {
+        "id": "3",
+        "src": "./img/tag-1.png",
+        "title": "Team Leading",
+        "description": "3 years of team leading experience. Led multiple development teams of sizes ranging from 3 to 10 in last 3 years."
+    },
+    {
+        "id": "4",
+        "src": "./img/feather-pen-1.png",
+        "title": "Frontend development",
+        "description": "3 years of development experience in React JS and Angular Js"
+    }
+],
+"portfolio": [
+    {
+        "id": "1",
+        "src": "./img/maalexi1.png",
+        "title": "Maalexi",
+        "description": "Bootstrapped the backend using Node JS and AWS for this startup in 2020. I gained experience in setting up the infrastructure and designing coding standards.",
+        "link": "https://maalexi.com/"
+    },
+    {
+        "id": "2",
+        "src": "./img/knnx.png",
+        "title": "KNNX Freight (Formerly DL Asset Track)",
+        "description": "Worked on enhancement of the flagship product from KNNX corp, while tailoring it for Walmart Canada.",
+        "link": "https://www.knnx.com/solutions/"
+    },
+    {
+        "id": "3",
+        "src": "./img/tata.png",
+        "title": "Tata AIG D2C Platform",
+        "description": "Impactful work done on one of the India's biggest Insurance platforms, mainly on AWS and backend.",
+        "link": "https://www.tataaig.com/"
+    }
+],
+"testimonial": [
+    {
+        "id": "1",
+        "count": "5",
+        "src": "./img/avatar-image.png",
+        "author_name": "Pankaj Bist",
+        "author_designation": "Project Manager, Sopra Steria India",
+        "description": "Right from the very start of his career Abhishek has a great sense of ownership. You can assign any task to him and he will find the best way to perform it! Abhishek is always interested in exploring new technologies and enhancing his learning curve. Along with positive attitude, his \"Can-do\" approach is one among his best qualities. Being a very supportive mentor, Abhishek has groomed various new joiner to the team.",
+        "link": "https://www.linkedin.com/in/abhishek-tyagi-dev/#:~:text=manage%20Abhishek%20directly-,Right%20from%20the%20very%20start%20of%20his%20career%20Abhishek%20has%20a,supportive%20mentor%2C%20Abhishek%20has%20groomed%20various%20new%20joiner%20to%20the%20team.,-Right%20from%20the"
+    },
+    {
+        "id": "2",
+        "count": "5",
+        "src": "./img/avatar-image-1.png",
+        "author_name": "Sanchit kumar",
+        "author_designation": "Manager, Sopra Banking Software India",
+        "description": "I have worked with many professionals throughout my journey, but Abhishek was a unique one to work. He started his work journey in my team, and mixed up with the organization's culture really well. His work ethics are pristine, and he is easily adjustable to a given situation. His exceptional technical skills along with his ability to go out of his way to help others has made him stand out. He is keen to learn new things and always up for a new challenge. A go to guy in the team.",
+        "link": "https://www.linkedin.com/in/abhishek-tyagi-dev/details/recommendations/?detailScreenTabIndex=0#:~:text=On-,I%20have%20worked%20with%20many%20professionals%20throughout%20my%20journey%2C%20but%20Abhishek,for%20a%20new%20challenge.%20A%20go%20to%20guy%20in%20the%20team.,-I%20have%20worked"
+    },
+    {
+        "id": "3",
+        "count": "5",
+        "src": "./img/avatar-image-2.png",
+        "author_name": "Naman Bhatla",
+        "author_designation": "Senior Frontend Developer, Techlens Global",
+        "description": "Met few people who are as efficient as Abhishek when it comes to finding solutions to critical problems. An absolute professional with great work ethics and technical skills. Let it be frontend or backend engineering, he makes sure that he is always there with his team to achieve what’s required. Would definitely like to work with him if I get a chance.",
+        "link": "https://www.linkedin.com/in/abhishek-tyagi-dev/details/recommendations/?detailScreenTabIndex=0#:~:text=On-,Met%20few%20people%20who%20are%20as%20efficient%20as%20Abhishek%20when%20it,definitely%20like%20to%20work%20with%20him%20if%20I%20get%20a%20chance.,-Met%20few%20people"
+    }
+]
+}
