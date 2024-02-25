@@ -42,6 +42,19 @@ const Footer = () => {
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
+                                to="MyCertification"
+                                className="text-md"
+                            >
+                                Certifications
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                activeClass="navbar--active-content"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
                                 to="AboutMe"
                                 className="text-md"
                             >

@@ -5,8 +5,7 @@ const Testimonials = () => {
         <section className="testimonial--section" id="Testimonial">
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
-                    <p className="sub--title">Recommendations</p>
-                    <h2 className="sections--heading">LinkedIn Recommendations</h2>
+                    <h2 className="sections--heading">Testimonials</h2>
                 </div>
             </div>
             <div className="portfolio--section--container">

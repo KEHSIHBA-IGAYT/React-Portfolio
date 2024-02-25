@@ -93,6 +93,19 @@ const Navbar = () => {
                             smooth={true}
                             offset={-70}
                             duration={500}
+                            to="MyCertification"
+                            className="navbar--content"
+                        >
+                            Certifications
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeMenu}
+                            activeClass="navbar--active-content"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
                             to="Testimonial"
                             className="navbar--content"
                         >

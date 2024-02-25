@@ -188,6 +188,7 @@ h2 {
 .navbar--logo {
   display: block;
   height: 60px;
+  margin-left: -40px;
 }
 
 .navbar--items>ul {
@@ -315,7 +316,7 @@ h2 {
   flex: 1 0 0;
   border-radius: 10.6px;
   background: var(--bg-shade);
-  min-height: 450px;
+  min-height: 380px;
 }
 
 .skills--section--card:hover {
@@ -381,10 +382,10 @@ h2 {
 /* My Portfolio Starts */
 .portfolio--section {
   display: flex;
-  padding: 112px 55px;
+  padding: 45px 55px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 60px;
 }
 
 .portfolio--section--github {
@@ -433,7 +434,7 @@ h2 {
   /* cursor: pointer; */
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  min-height: 900px;
+  min-height: 700px;
 }
 
 .portfolio--section--card--content {
@@ -467,6 +468,89 @@ h2 {
 } */
 
 /* Portfolio Ends */
+
+/* My certification Starts */
+.certification--section {
+  display: flex;
+  padding: 45px 55px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.certification--section--github {
+  height: 60px;
+}
+
+.certification--container-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.certification--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21.3px;
+}
+
+.certification--section--container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 42.6px;
+  width: 100%;
+}
+
+.certification--section--img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.certification--section--img>img {
+  width: 100%;
+}
+
+.certification--section--card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  background: #fff;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  /* cursor: pointer; */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+}
+
+.certification--section--card--content {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.certification--section--title {
+  color: var(--heading-color);
+}
+
+.certification--link {
+  text-decoration: none;
+  display: flex;
+  gap: 16px;
+  border-bottom: 1.33px solid var(--primary);
+  padding-bottom: 10.6px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+/* My certification Ends */
 
 /* Testimonial */
 .testimonial--section {
@@ -735,6 +819,8 @@ input[type="checkbox"] {
   .about--section,
   .portfolio--section--container,
   .portfolio--container-box,
+  .certification--section--container,
+  .certification--container-box,
   .footer--link--container,
   .footer--items>ul,
   .footer--content--container {
@@ -744,16 +830,19 @@ input[type="checkbox"] {
 
   .skills--section,
   .portfolio--container,
+  .certification--container,
   .hero--section--content,
   .hero--section--content--box {
     align-items: center;
   }
 
-  .portfolio--container-box {
+  .portfolio--container-box,
+  .certification--container-box {
     gap: 30px;
   }
 
   .portfolio--section--card,
+  .certification--section--card,
   .testimonial--section--card {
     min-height: auto;
   }

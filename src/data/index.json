@@ -2,27 +2,27 @@
     "skills": [
     {
         "id": "1",
-        "src": "./img/feather-pen-2.png",
+        "src": "./img/nodejs.svg",
         "title": "Backend development",
         "description": "8 years of development experience, mainly in Node JS and python with multiple databases such as postgresql, MongoDB, etc."
     },
     {
         "id": "2",
-        "src": "./img/product-chain-1.png",
-        "title": "Cloud development",
+        "src": "./img/aws.svg",
+        "title": "Cloud Engineering",
         "description": "4 years of development and infrastructure experience, mainly in private cloud and AWS cloud services. Certified AWS Cloud Solutions Architect Associate."
     },
     {
         "id": "3",
-        "src": "./img/tag-1.png",
-        "title": "Team Leading",
-        "description": "3 years of team leading experience. Led multiple development teams of sizes ranging from 3 to 10 in last 3 years."
+        "src": "./img/design.svg",
+        "title": "System Design",
+        "description": "3 years of experience in desigining scalable systems and assisting solutions architects in their day-to-day activities."
     },
     {
         "id": "4",
-        "src": "./img/feather-pen-1.png",
+        "src": "./img/reactjs.svg",
         "title": "Frontend development",
-        "description": "3 years of development experience in React JS and Angular Js"
+        "description": "4 years of development experience in React JS and Angular Js."
     }
 ],
 "portfolio": [
@@ -46,6 +46,26 @@
         "title": "Tata AIG D2C Platform",
         "description": "Impactful work done on one of the India's biggest Insurance platforms, mainly on AWS and backend.",
         "link": "https://www.tataaig.com/"
+    }
+],
+"certifications": [
+    {
+        "id": "1",
+        "src": "./img/aws_sa_as.png",
+        "title": "AWS Solutions Architect Associate - Certification",
+        "link": "https://cp.certmetrics.com/amazon/en/public/verify/credential/RBLQ0C1LQMBEQQ54"
+    },
+    {
+        "id": "2",
+        "src": "./img/snowflake_dw.png",
+        "title": "Snowflake Data Warehouse - Badge",
+        "link": "https://www.credly.com/go/eXgvoz2M"
+    },
+    {
+        "id": "3",
+        "src": "./img/tableau.png",
+        "title": "Tableau Connect & Transform - Badge",
+        "link": "https://www.credly.com/badges/6b56585f-e418-49ba-9ecb-9dc4ab27499b"
     }
 ],
 "testimonial": [
