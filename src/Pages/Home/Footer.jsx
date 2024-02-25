@@ -4,9 +4,6 @@ const Footer = () => {
     return (
         <footer className="footer--container">
             <div className="footer--link--container">
-                <div>
-                    <img className="navbar--logo" src="./img/logo2.jpg" alt="Abhishek Tyagi" />
-                </div>
                 <div className="footer--items">
                     <ul>
                         <li>
